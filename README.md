@@ -1,9 +1,6 @@
 
 
-;;dflfs; 
-
-
-def alpha_shape(points, alpha, only_outer=True):
+    def alpha_shape(points, alpha, only_outer=True):
     """
     Compute the alpha shape (concave hull) of a set of points.
     :param points: np.array of shape (n,2) points.
