@@ -4,6 +4,10 @@ from scipy.spatial import Delaunay
 import numpy as np
 
 
+from scipy.spatial import Delaunay
+import numpy as np
+
+
 def alpha_shape(points, alpha, only_outer=True):
     """
     Compute the alpha shape (concave hull) of a set of points.
